@@ -1,0 +1,6 @@
+Code-Review+2: Alex Naidis <alex.naidis@linux.com>
+Submitted-by: Alex Naidis <alex.naidis@linux.com>
+Submitted-at: Thu, 06 Oct 2016 13:45:50 +0200
+Reviewed-on: https://gerrit.aospa.co/803
+Project: AOSPA/android_system_sepolicy
+Branch: refs/heads/nougat-caf
