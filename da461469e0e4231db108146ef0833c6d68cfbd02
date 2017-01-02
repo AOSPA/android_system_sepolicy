@@ -1,0 +1,10 @@
+Code-Review+2: Alex Naidis <alex.naidis@linux.com>
+Verified+1: Alex Naidis <alex.naidis@linux.com>
+Code-Review-1: Anas Karbila <anaskarbila@aospa.co>
+Code-Review+2: Jake Weinstein <xboxlover360@gmail.com>
+Verified+1: Jake Weinstein <xboxlover360@gmail.com>
+Submitted-by: Alex Naidis <alex.naidis@linux.com>
+Submitted-at: Tue, 03 Jan 2017 00:00:15 +0100
+Reviewed-on: https://gerrit.aospa.co/1610
+Project: AOSPA/android_system_sepolicy
+Branch: refs/heads/nougat-mr1
