@@ -1,0 +1,2 @@
+type f2fs_gc, domain, domain_deprecated;
+init_daemon_domain(f2fs_gc)
