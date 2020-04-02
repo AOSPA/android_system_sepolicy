@@ -147,6 +147,7 @@
     statsdw_socket
     storaged_data_file
     super_block_device
+    surfaceflinger_prop
     staging_data_file
     sysfs_disk_stat
     system_boot_reason_prop
