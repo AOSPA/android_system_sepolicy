@@ -84,7 +84,9 @@ endif
 NEVERALLOW_ARG :=
 ifeq ($(SELINUX_IGNORE_NEVERALLOWS),true)
 ifeq ($(TARGET_BUILD_VARIANT),user)
+ifneq ($(TARGET_USES_QCOM_LEGACY_PRE_UM_SEPOLICY),true)
 $(error SELINUX_IGNORE_NEVERALLOWS := true cannot be used in user builds)
+endif
 endif
 $(warning Be careful when using the SELINUX_IGNORE_NEVERALLOWS flag. \
           It does not work in user builds and using it will \
