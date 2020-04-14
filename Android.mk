@@ -238,15 +238,6 @@ LOCAL_REQUIRED_MODULES += \
 
 endif # ($(PRODUCT_SEPOLICY_SPLIT),true)
 
-ifneq ($(with_asan),true)
-ifneq ($(SELINUX_IGNORE_NEVERALLOWS),true)
-LOCAL_REQUIRED_MODULES += \
-    sepolicy_tests \
-    $(addprefix treble_sepolicy_tests_,$(PLATFORM_SEPOLICY_COMPAT_VERSIONS)) \
-
-endif
-endif
-
 ifneq ($(PLATFORM_SEPOLICY_VERSION),$(TOT_SEPOLICY_VERSION))
 LOCAL_REQUIRED_MODULES += \
     sepolicy_freeze_test \
@@ -1323,17 +1314,6 @@ ifdef BOARD_ODM_SEPOLICY_DIRS
 all_fc_files += $(built_odm_fc)
 endif
 all_fc_args := $(foreach file, $(all_fc_files), -f $(file))
-
-# Tests for Treble compatibility of current platform policy and vendor policy of
-# given release version.
-version_under_treble_tests := 26.0
-include $(LOCAL_PATH)/treble_sepolicy_tests_for_release.mk
-
-version_under_treble_tests := 27.0
-include $(LOCAL_PATH)/treble_sepolicy_tests_for_release.mk
-
-version_under_treble_tests := 28.0
-include $(LOCAL_PATH)/treble_sepolicy_tests_for_release.mk
 
 BASE_PLAT_PUBLIC_POLICY :=
 BASE_PLAT_PRIVATE_POLICY :=
