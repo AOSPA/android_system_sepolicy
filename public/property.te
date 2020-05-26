@@ -453,6 +453,7 @@ compatible_property_only(`
     -safemode_prop
     -serialno_prop
     -shell_prop
+    -surfaceflinger_prop
     -system_boot_reason_prop
     -system_prop
     -system_radio_prop
