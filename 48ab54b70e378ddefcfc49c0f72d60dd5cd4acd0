@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bad655f_e1c58416",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2022-02-21T16:33:33Z",
+      "side": 1,
+      "message": "pls no on user builds\nbut authorship https://github.com/CarbonROM/android_system_sepolicy/commit/c27ff5993545e783a86143a3584349e3bd893b6b",
+      "revId": "48ab54b70e378ddefcfc49c0f72d60dd5cd4acd0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
