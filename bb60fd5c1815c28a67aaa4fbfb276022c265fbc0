@@ -16,6 +16,24 @@
       "message": "use spaces",
       "revId": "bb60fd5c1815c28a67aaa4fbfb276022c265fbc0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dfe3d11_f2b211ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-01-28T17:43:25Z",
+      "side": 1,
+      "message": "can\u0027t use spaces.. cuz that\u0027s how the original commit has been done.. but i can drop the tabs from both files in this commit, is that considerable??",
+      "parentUuid": "edbfb435_c4240b1d",
+      "revId": "bb60fd5c1815c28a67aaa4fbfb276022c265fbc0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
