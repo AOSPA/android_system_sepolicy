@@ -16,6 +16,23 @@
       "message": "seems like a better approach.",
       "revId": "11c66e6acd016562b7c377d833cb2145b2cfac7a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "749e0e89_04898574",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-02-02T03:54:46Z",
+      "side": 1,
+      "message": "waiting for the common or vendor/aospa commit.  Thinking vendor/aospa so it applies to non-QCOM also.  This doesn\u0027t seem Qualcomm-specific unless I\u0027m missing something.",
+      "revId": "11c66e6acd016562b7c377d833cb2145b2cfac7a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
