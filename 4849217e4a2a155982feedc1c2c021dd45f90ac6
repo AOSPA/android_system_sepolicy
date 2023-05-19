@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20f5aa4a_41a5c2cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-05-19T01:32:47Z",
+      "side": 1,
+      "message": "we should not update this repo unless we absolutely have to or if they are from upstream.  this kind of change would belong in vendor/aospa or device/qcom/common/sepolicy.\n\nalso, this property is not the correct way to define whether a device has capacitive keys or soft keys.  applications such as Snapchat expect the navigation bar overlay and draw the interface underneath the soft keys if you use the property instead.",
+      "revId": "4849217e4a2a155982feedc1c2c021dd45f90ac6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
