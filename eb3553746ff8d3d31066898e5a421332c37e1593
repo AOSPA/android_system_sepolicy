@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64e3e83f_2d13f267",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2023-05-19T01:33:27Z",
+      "side": 1,
+      "message": "does not belong in this repo unless this is merged to aosp",
+      "revId": "eb3553746ff8d3d31066898e5a421332c37e1593",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
