@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5819b369_6ca0339b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2023-07-14T08:05:04Z",
+      "side": 1,
+      "message": "Unless there\u0027s any app feature that relies on it, it\u0027s a warning so ignore it",
+      "revId": "63b1b6b8de75960a65fb13c00bc5af44b935a7f1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
